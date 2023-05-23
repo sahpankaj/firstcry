@@ -1,0 +1,54 @@
+.allcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 50px;
+    padding: 10px 0px;
+    /* width: 100%; */
+    padding: 10px ;
+
+}
+.leftsidecontnav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.rightsidecontnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin:"0px";
+}
+
+#firstcrylogo{
+    border:"1px solid gold";
+    width: 100px;
+}
+#searchbar{
+    /* border:"2px solid white"; */
+    border-radius: 5px;
+    width: 350px;
+    height: 27px;
+    margin-top: 10px;
+    padding: 0px 0px 0px 10px;  
+    /* border:none; */
+    outline: transparent;
+}
+#searchbarmobile{
+   
+    border-radius: 3px;
+    width: 55vw;
+    height: 23px;
+    /* margin-top: 10px; */
+    padding: 0px 0px 0px 7px;  
+    /* border:none; */
+    outline: none;
+    border:"2px solid orange";
+}
+.rightsidecontnavItem{
+    font-size: 13px;
+    padding: 0px 3px;
+    color: gray;
+}

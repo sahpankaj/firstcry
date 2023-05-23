@@ -1,0 +1,11 @@
+
+/* .menubutton1:hover{
+    color: black;
+    background-color: white;
+} */
+
+.menubuttons{
+    color: black;
+    padding: 0px;
+    /* border:1px solid black; */
+}
